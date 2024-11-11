@@ -1,6 +1,6 @@
 # :wind_face: Keywind
 
-Keywind is a component-based Keycloak Login & E-Mail Theme built with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss), [Mailwind](https://www.mailwind.io/) and [Alpine.js](https://github.com/alpinejs/alpine).
+Keywind is a component-based Keycloak Login Theme built with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) and [Alpine.js](https://github.com/alpinejs/alpine).
 
 ![Preview](./preview.png)
 
