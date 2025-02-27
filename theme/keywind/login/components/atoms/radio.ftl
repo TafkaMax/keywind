@@ -24,7 +24,7 @@
       type="radio"
 
       <#list rest as attrName, attrValue>
-        <#if attrValue!="">
+        <#if (attrValue?string)!="">
           ${attrName}="${attrValue}"
         </#if>
       </#list>
