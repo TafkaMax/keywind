@@ -18,6 +18,7 @@
   displayRequiredFields=false
   script=""
   showAnotherWayIfPresent=true
+  isTermsPage=false
 >
   <#assign cardHeader>
     <@logo.kw>
@@ -72,7 +73,7 @@
     </head>
     <@body.kw>
       <@background.kw />
-      <@container.kw>
+      <@container.kw isTermsPage=isTermsPage!false>
         <@card.kw content=cardContent footer=cardFooter header=cardHeader />
         <@nav.kw>
           <#nested "nav">

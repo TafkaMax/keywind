@@ -3,7 +3,7 @@
 <#import "components/atoms/button-group.ftl" as buttonGroup>
 <#import "components/atoms/form.ftl" as form>
 
-<@layout.registrationLayout displayMessage=false; section>
+<@layout.registrationLayout displayMessage=false isTermsPage=true; section>
   <#if section="header">
     ${msg("termsTitle")}
   <#elseif section="form">
